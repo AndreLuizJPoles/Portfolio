@@ -61,6 +61,7 @@ h1 {
 }
 
 .caixa {
+    align-self: center;
     position: relative;
     width: 80%;
     height: 100%;
@@ -119,7 +120,7 @@ h2 {
     margin-top: 1rem;
 }
 
-#projetos .texto{
+#projetos .texto {
     width: 90%;
     margin-bottom: 1rem;
 }
@@ -133,9 +134,10 @@ h2 {
     margin-top: 2rem;
     width: 25%;
     text-align: center;
+    margin-right: 2rem;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 990px) {
     body {
         overflow-x: hidden;
     }
@@ -159,5 +161,29 @@ h2 {
 
     .box .navegador li {
         margin: 8px;
+    }
+
+    .lista-proj {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-lista {
+        width: 100%;
+    }
+
+    #projetos .texto {
+        height: 50%;
+        width: 90%;
+        text-align: center;
+        align-self: center;
+        font-size: 1.1rem;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    #projetos .foto {
+        align-self: center;
+        margin-left: 5%;
     }
 }

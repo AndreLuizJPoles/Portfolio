@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, serif;
+}
+
+a {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, serif;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.box {
+    width: 100%;
+}
+
+.box .menu-superior {
+    background-color: rgba(77, 45, 183, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+}
+
+.box .navegador {
+    list-style: none;
+    display: flex;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, serif;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2rem;
+}
+
+.box .navegador li {
+    letter-spacing: 3px;
+    margin-left: 3rem;
+}
+
+main {
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 0.8rem;
+    font-size: 2rem;
+}
+
+.qm-box {
+    height: fit-content;
+}
+
+.caixa {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    border: 0.5px solid;
+    border-color: #000000;
+    background-color: rgba(184, 175, 214, 1);
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0.8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    height: 10%;
+    width: 15%;
+    text-align: center;
+    position: relative;
+    align-self: center;
+}
+
+.foto {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    margin: 0.8rem;
+}
+
+.texto {
+    position: relative;
+    height: 50%;
+    width: 65%;
+    text-align: justify;
+    align-self: center;
+    font-size: 1.1rem;
+}
+
+.lista-proj {
+    list-style: none;
+    display: flex;
+}
+
+#projetos h2 {
+    position: absolute;
+    top: 0.8rem;
+}
+
+#projetos .foto{
+    border-radius: 20px;
+}
+
+#projetos h3{
+    color: black;
+    
+}
+
+.item-lista{
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .caixa {
+        flex-direction: column;
+    }
+
+    .foto {
+        align-self: center;
+    }
+
+    .box .menu-superior {
+        height: 10rem;
+    }
+
+    .box .navegador {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box .navegador li {
+        margin: 8px;
+    }
+}

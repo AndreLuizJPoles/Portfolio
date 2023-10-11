@@ -105,6 +105,7 @@ h2 {
 .lista-proj {
     list-style: none;
     display: flex;
+    justify-content: space-around;
 }
 
 #projetos h2 {
@@ -112,18 +113,26 @@ h2 {
     top: 0.8rem;
 }
 
-#projetos .foto{
+#projetos .foto {
     border-radius: 20px;
+    margin: 0;
+    margin-top: 1rem;
 }
 
-#projetos h3{
+#projetos .texto{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+#projetos h3 {
     color: black;
-    
+    text-align: center;
 }
 
-.item-lista{
-    margin: 1rem;
+.item-lista {
     margin-top: 2rem;
+    width: 25%;
+    text-align: center;
 }
 
 @media screen and (max-width: 650px) {

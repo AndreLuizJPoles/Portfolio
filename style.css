@@ -87,47 +87,48 @@ h1 {
 }
 
 .caixa {
-    align-self: center;
+    position: relative;
+    width: 95%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0.8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.caixa-noflex {
     position: relative;
     width: 80%;
     height: 100%;
     border-radius: 20px;
-    border: 0.5px solid;
+    border: 5px solid;
     border-color: #000000;
     background-color: #a02c30;
     left: 50%;
     transform: translate(-50%);
     margin: 0.8rem;
     margin-bottom: 2rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
 }
 
 
 h2 {
-    font-size: 1.5rem;
-    height: 10%;
-    width: 15%;
-    text-align: center;
+    font-family: 'Persona-Texto';
+    font-size: 3rem;
     position: relative;
-    align-self: center;
+    letter-spacing: 3px;
 }
 
-.caixa h2 {
-    position: absolute;
+.caixa-noflex h2 {
+    text-align: center;
     top: 0.8rem;
     color: white;
-}
-
-#sobre-texto {
-    margin-top: 2rem;
 }
 
 .foto {
     position: relative;
     width: 25%;
-    margin: 0.8rem;
 }
 
 .fotoconfig {
@@ -142,7 +143,7 @@ h2 {
     width: 65%;
     text-align: justify;
     align-self: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -163,6 +164,8 @@ h2 {
 
 #sobre-mim .texto {
     margin-left: 1rem;
+    margin-right: 1rem;
+    width: 80%;
 }
 
 #projetos .texto {
@@ -182,7 +185,6 @@ h2 {
 }
 
 #meus-gostos h2 {
-    position: absolute;
     top: 0.8rem;
 }
 
@@ -246,6 +248,8 @@ h2 {
     .box .navegador {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .box .navegador li {

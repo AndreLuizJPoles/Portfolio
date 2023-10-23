@@ -198,9 +198,8 @@ h2 {
 }
 
 #meus-gostos .texto {
-    width: 90%;
+    width: 100%;
     margin-bottom: 1rem;
-    margin-left: 2rem;
 }
 
 #meus-gostos h3 {
@@ -224,6 +223,10 @@ h2 {
         width: 50%;
         height: 50%;
     }
+}
+
+.icone {
+    width: 10rem;
 }
 
 @media screen and (max-width: 660px) {
@@ -278,5 +281,14 @@ h2 {
     #projetos .foto {
         align-self: center;
         margin-left: 5%;
+    }
+
+    #meus-gostos .texto {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    #contato {
+        text-align: center;
     }
 }

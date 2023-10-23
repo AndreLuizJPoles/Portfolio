@@ -314,7 +314,7 @@ textarea {
     }
 
     .box .menu-superior {
-        height: 10rem;
+        height: 15rem;
     }
 
     .box .navegador {
@@ -325,7 +325,7 @@ textarea {
     }
 
     .box .navegador li {
-        margin: 8px;
+        margin: 5px;
     }
 
     .lista-proj {

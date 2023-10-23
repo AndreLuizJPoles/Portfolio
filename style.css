@@ -26,6 +26,7 @@ body {
     background-image: url('imgs/backgroundimg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 a {
@@ -209,6 +210,74 @@ h2 {
 
 .tit-ses {
     margin-top: 1rem;
+}
+
+#email-sessao {
+    color: white;
+}
+
+#email-sessao form {
+    width: 100%;
+}
+
+#email-sessao label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+#email-sessao input,
+textarea,
+button {
+    width: 50%;
+    height: 2rem;
+}
+
+#email-sessao textarea {
+    height: 8rem;
+}
+
+#email-sessao input,
+textarea {
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    background-color: #000000;
+    border: white solid;
+    border-radius: 5px;
+}
+
+#email-sessao button {
+    height: auto;
+    width: auto;
+    background: none;
+    border: none;
+}
+
+#email-sessao label {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#email-sessao textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+#email-sessao button img {
+    height: auto;
+    width: 10rem;
+}
+
+#email-sessao button:hover {
+    transform: scale(1.2) rotate(-10deg);
+    cursor: pointer;
+}
+
+#email-sessao form {
+    margin-left: 25%;
 }
 
 @media screen and (max-width: 1050px) {

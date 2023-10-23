@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/imgs/icon.png" type="image/x-icon">
+    <script src="email.js"></script>
     <title>Portifólio de André Luiz</title>
 </head>
 
@@ -171,9 +172,17 @@
             </div>
         </div>
 
-        <div class="caixa-noflex" id="email">
+        <div class="caixa-noflex" id="email-sessao">
             <h2 id="sobre-titulo">E-mail</h2>
-
+            <form action="https://formsubmit.co/andreluizjunqpoles@gmail.com" method="POST" id="formulario" data-form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button type="submit" data-button><img src="/imgs/botao.png" id="img-botao"></button>
+            </form>
         </div>
     </main>
 </body>

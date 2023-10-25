@@ -1,0 +1,13 @@
+body {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif, serif;
+    background-image: url('imgs/madeira.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#papel{
+    background-image: url('/imgs/papel.png');
+    width: 100rem;
+    height: 100rem;
+}

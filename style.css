@@ -352,6 +352,12 @@ textarea {
         margin-left: 5%;
     }
 
+    #meus-gostos .foto{
+        align-self: center;
+        margin-left: 5%;
+
+    }
+
     #meus-gostos .texto {
         margin-left: 2rem;
         margin-right: 2rem;

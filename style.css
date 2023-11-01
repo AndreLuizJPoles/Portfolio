@@ -382,4 +382,10 @@ textarea {
     #contato {
         text-align: center;
     }
+
+    #foto-programador{
+        margin-top: 1rem;
+        width: 90%;
+        border-radius: 20px;
+    }
 }

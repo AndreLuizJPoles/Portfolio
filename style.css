@@ -42,7 +42,7 @@ a:hover {
 
 .navegador a {
     font-family: 'Persona-Texto';
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .box {
@@ -298,17 +298,17 @@ textarea {
     width: 10rem;
 }
 
-#foto-programador{
+#foto-programador {
     width: 30%;
     border-radius: 20px;
 }
 
-#lista-habilidades{
-    width:60%;
+#lista-habilidades {
+    width: 60%;
     margin-left: 1rem;
 }
 
-#lista-habilidades li{
+#lista-habilidades li {
     color: white;
     font-size: 1.1rem;
 }
@@ -367,7 +367,7 @@ textarea {
         margin-left: 5%;
     }
 
-    #meus-gostos .foto{
+    #meus-gostos .foto {
         align-self: center;
         margin-left: 5%;
 
@@ -383,7 +383,7 @@ textarea {
         text-align: center;
     }
 
-    #foto-programador{
+    #foto-programador {
         margin-top: 1rem;
         width: 90%;
         border-radius: 20px;

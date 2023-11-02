@@ -4,13 +4,44 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+    text-align: center;
 }
 
-#papel{
+#papel {
     background-image: url('/imgs/papel.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
+    width: 80%;
     height: 90%;
-    margin: 5%;
+    margin: 10%;
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+p {
+    margin: 1.5rem;
+    text-align: justify;
+}
+
+#nome {
+    text-align: right;
+}
+
+#bandeira {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+    #papel {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }

@@ -313,6 +313,20 @@ textarea {
     font-size: 1.1rem;
 }
 
+#lista-xp{
+    width: 60%;
+    margin-left: 1rem;
+}
+
+#lista-xp li {
+    color: white;
+    font-size: 1.1rem;
+}
+
+#xp_texto p{
+    color: white;
+}
+
 @media screen and (max-width: 660px) {
 
     .caixa {
